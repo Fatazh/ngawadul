@@ -1,0 +1,44 @@
+workflows:
+  android-apk-release:
+    name: Build Android APK (English Fokus A1-B1)
+    max_build_duration: 30
+    instance_type: linux_x2
+    environment:
+      flutter: stable
+      java: 17
+    triggering:
+      events:
+        - push
+      branch_patterns:
+        - pattern: main
+          include: true
+          source: true
+    scripts:
+      - name: Install SQLite Dev Library (untuk Unit Test Drift)
+        script: |
+          sudo apt-get update && sudo apt-get install -y libsqlite3-dev
+
+      - name: Lengkapi Wrapper & Ikon Bawaan Android (Tanpa Menimpa Kode Kustom)
+        script: |
+          flutter create --platforms=android --org com.example .
+
+      - name: Install Dependencies Flutter
+        script: |
+          flutter pub get
+
+      - name: Generate Kode Database Drift (.g.dart)
+        script: |
+          dart run build_runner build --delete-conflicting-outputs
+
+      - name: Analisis Kode & Jalankan Seluruh Test
+        script: |
+          flutter analyze --no-fatal-infos
+          flutter test
+
+      - name: Build Release APK Ringan (ARM64 untuk POCO / Android Modern)
+        script: |
+          flutter build apk --release --split-per-abi --tree-shake-icons
+
+    artifacts:
+      - build/app/outputs/flutter-apk/app-arm64-v8a-release.apk
+      - build/app/outputs/flutter-apk/*.apk
