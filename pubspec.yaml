@@ -27,6 +27,7 @@ dependencies:
   timezone: ^0.10.0
   shared_preferences: ^2.3.5
 
+  material_ui: ^1.11.1
 dev_dependencies:
   flutter_test:
     sdk: flutter
