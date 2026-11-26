@@ -1,0 +1,40 @@
+name: english_adult_learner
+description: "Aplikasi belajar bahasa Inggris offline-first (A1-B1) untuk pembelajar dewasa dengan Spaced Repetition (SM-2), Micro-Reading, dan Grammar Intuitif."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^2.6.1
+
+  # Local Database (SQLite via Drift)
+  drift: ^2.22.0
+  sqlite3_flutter_libs: ^0.5.28
+  path_provider: ^2.1.5
+  path: ^1.9.0
+
+  # Audio / Offline Text-to-Speech
+  flutter_tts: ^4.2.0
+
+  # Local Reminders & Habit Preferences
+  flutter_local_notifications: ^18.0.1
+  timezone: ^0.10.0
+  shared_preferences: ^2.3.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  drift_dev: ^2.22.0
+  build_runner: ^2.4.14
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/

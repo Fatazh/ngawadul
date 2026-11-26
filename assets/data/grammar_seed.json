@@ -1,0 +1,561 @@
+[
+  {
+    "title": "1. Kapan Harus Pakai Am / Is / Are?",
+    "level": "A1",
+    "explanation_id": "Di bahasa Indonesia kita langsung bilang 'Saya capek' atau 'Kantor ini tenang' tanpa kata penghubung. Di bahasa Inggris, setiap kalimat WAJIB punya kata kerja. Kalau tidak ada aksi fisik (seperti makan/kerja/jalan) dan kita hanya menjelaskan sifat, kondisi, atau posisi, selipkan jembatan 'am / is / are'.",
+    "formula": "I + am | He/She/It + is | You/We/They + are + (Sifat / Benda / Lokasi)",
+    "examples": [
+      {
+        "en": "I am tired today.",
+        "id": "Saya lelah hari ini. (Bukan 'I tired')"
+      },
+      {
+        "en": "This office is quiet.",
+        "id": "Kantor ini tenang."
+      },
+      {
+        "en": "Are you ready for the meeting?",
+        "id": "Apakah kamu siap untuk rapat?"
+      }
+    ],
+    "quiz": [
+      {
+        "prompt_id": "Saya sedang sibuk sekarang.",
+        "target_words": [
+          "I",
+          "am",
+          "busy",
+          "right",
+          "now."
+        ],
+        "distractors": [
+          "is",
+          "do"
+        ],
+        "hint": "Karena 'sibuk' (busy) adalah sifat/kondisi, gunakan jembatan 'am' setelah 'I'."
+      },
+      {
+        "prompt_id": "Apakah kamu punya waktu luang besok?",
+        "target_words": [
+          "Are",
+          "you",
+          "available",
+          "tomorrow?"
+        ],
+        "distractors": [
+          "Do",
+          "is"
+        ],
+        "hint": "Untuk kalimat tanya sifat dengan 'you', letakkan 'Are' di depan."
+      },
+      {
+        "prompt_id": "Hotel itu sangat mahal.",
+        "target_words": [
+          "The",
+          "hotel",
+          "is",
+          "very",
+          "expensive."
+        ],
+        "distractors": [
+          "are",
+          "am"
+        ],
+        "hint": "'The hotel' jumlahnya satu (tunggal = it), jadi gunakan 'is'."
+      }
+    ]
+  },
+  {
+    "title": "2. Kebiasaan Rutin (Simple Present Tanpa Ribet)",
+    "level": "A1",
+    "explanation_id": "Gunakan pola ini untuk hal yang rutin terjadi (tiap pagi, tiap minggu) atau fakta umum. Cukup pasang Subjek + Kata Kerja asli! Satu-satunya jebakan: kalau pelakunya satu orang lain (He / She / It / My manager), tambahkan buntut '-s' di kata kerjanya, dan jangan pakai 'am/is/are' lagi!",
+    "formula": "I/You/We/They + Verb | He/She/It + Verb-s (Negatif: don't / doesn't + Verb)",
+    "examples": [
+      {
+        "en": "I drink coffee every morning.",
+        "id": "Saya minum kopi setiap pagi."
+      },
+      {
+        "en": "My colleague arrives early.",
+        "id": "Rekan kerja saya tiba lebih awal."
+      },
+      {
+        "en": "I don't understand that word.",
+        "id": "Saya tidak mengerti kata itu."
+      }
+    ],
+    "quiz": [
+      {
+        "prompt_id": "Kami mulai rapat jam sembilan.",
+        "target_words": [
+          "We",
+          "start",
+          "the",
+          "meeting",
+          "at",
+          "nine."
+        ],
+        "distractors": [
+          "are",
+          "starts"
+        ],
+        "hint": "Subjek 'We' langsung diikuti kata kerja asli 'start' tanpa 'are'."
+      },
+      {
+        "prompt_id": "Dia (perempuan) berangkat kerja naik kereta.",
+        "target_words": [
+          "She",
+          "commutes",
+          "by",
+          "train."
+        ],
+        "distractors": [
+          "commute",
+          "is"
+        ],
+        "hint": "Untuk 'She', kata kerja rutin mendapat tambahan '-s' (commutes)."
+      },
+      {
+        "prompt_id": "Saya tidak butuh struknya.",
+        "target_words": [
+          "I",
+          "don't",
+          "need",
+          "the",
+          "receipt."
+        ],
+        "distractors": [
+          "not",
+          "am"
+        ],
+        "hint": "Kalimat negatif kata kerja untuk 'I' menggunakan 'don't + Verb'."
+      }
+    ]
+  },
+  {
+    "title": "3. Segitiga In, On, At (Waktu & Tempat)",
+    "level": "A1",
+    "explanation_id": "Sering tertukar pakai in, on, atau at? Bayangkan segitiga terbalik dari BESAR ke KECIL/SPESIFIK:\n• IN = Rentang besar / ruang tertutup (bulan, tahun, pagi/siang, kota: in May, in the morning, in Jakarta)\n• ON = Menengah / permukaan / hari & tanggal (on Monday, on the desk, on Jalan Sudirman)\n• AT = Titik jam spesifik / lokasi patokan (at 7 o'clock, at the airport, at work)",
+    "formula": "IN (Bulan/Kota/Pagi) -> ON (Hari/Tanggal/Meja) -> AT (Jam/Titik Lokasi)",
+    "examples": [
+      {
+        "en": "Our meeting is on Friday at two o'clock.",
+        "id": "Rapat kita hari Jumat jam dua."
+      },
+      {
+        "en": "I left my phone on the desk.",
+        "id": "Saya meninggalkan HP di atas meja."
+      },
+      {
+        "en": "I usually exercise in the morning.",
+        "id": "Saya biasanya olahraga di pagi hari."
+      }
+    ],
+    "quiz": [
+      {
+        "prompt_id": "Saya tiba di bandara jam enam.",
+        "target_words": [
+          "I",
+          "arrive",
+          "at",
+          "the",
+          "airport",
+          "at",
+          "six."
+        ],
+        "distractors": [
+          "in",
+          "on"
+        ],
+        "hint": "Titik lokasi ('the airport') dan jam spesifik ('six') sama-sama memakai 'at'."
+      },
+      {
+        "prompt_id": "Lalu lintas padat pada Senin pagi.",
+        "target_words": [
+          "Traffic",
+          "is",
+          "heavy",
+          "on",
+          "Monday",
+          "morning."
+        ],
+        "distractors": [
+          "in",
+          "at"
+        ],
+        "hint": "Karena ada nama HARI ('Monday'), gunakan 'on' meskipun diikuti 'morning'."
+      },
+      {
+        "prompt_id": "Keluarga saya tinggal di kota lain.",
+        "target_words": [
+          "My",
+          "family",
+          "lives",
+          "in",
+          "another",
+          "city."
+        ],
+        "distractors": [
+          "at",
+          "on"
+        ],
+        "hint": "Wilayah luas seperti kota ('city') menggunakan 'in'."
+      }
+    ]
+  },
+  {
+    "title": "4. Menceritakan Kejadian Kemarin (Simple Past)",
+    "level": "A2",
+    "explanation_id": "Di Indonesia kita cukup tambah kata 'tadi' atau 'kemarin'. Di bahasa Inggris, waktu lampau ditandai langsung di kata kerjanya (Verb 2, misal worked, arrived, sent, woke up). Kabar baiknya: saat menyangkal (didn't) atau bertanya (Did ...?), kata kerjanya KEMBALI ke bentuk dasar (Verb 1)!",
+    "formula": "Positif: Subjek + Verb-2 | Negatif/Tanya: didn't / Did ... + Verb-1",
+    "examples": [
+      {
+        "en": "I sent the message yesterday.",
+        "id": "Saya mengirim pesan itu kemarin."
+      },
+      {
+        "en": "I didn't sleep well last night.",
+        "id": "Saya tidak tidur nyenyak tadi malam. (Bukan 'didn't slept')"
+      },
+      {
+        "en": "What time did you arrive?",
+        "id": "Jam berapa kamu tiba?"
+      }
+    ],
+    "quiz": [
+      {
+        "prompt_id": "Saya bangun lebih awal pagi tadi.",
+        "target_words": [
+          "I",
+          "woke",
+          "up",
+          "early",
+          "this",
+          "morning."
+        ],
+        "distractors": [
+          "wake",
+          "am"
+        ],
+        "hint": "Gunakan bentuk lampau dari 'wake up' yaitu 'woke up'."
+      },
+      {
+        "prompt_id": "Saya tidak lupa janji temu kita.",
+        "target_words": [
+          "I",
+          "didn't",
+          "forget",
+          "our",
+          "appointment."
+        ],
+        "distractors": [
+          "forgot",
+          "don't"
+        ],
+        "hint": "Setelah 'didn't', kata kerja kembali ke bentuk asli 'forget' (bukan 'forgot')."
+      },
+      {
+        "prompt_id": "Apakah kamu mengonfirmasi jadwalnya kemarin?",
+        "target_words": [
+          "Did",
+          "you",
+          "confirm",
+          "the",
+          "schedule",
+          "yesterday?"
+        ],
+        "distractors": [
+          "confirmed",
+          "Are"
+        ],
+        "hint": "Awali dengan 'Did' untuk pertanyaan masa lampau, diikuti kata kerja dasar 'confirm'."
+      }
+    ]
+  },
+  {
+    "title": "5. Rencana Masa Depan: Will vs Going To",
+    "level": "A2",
+    "explanation_id": "Keduanya berarti 'akan', tapi nuansanya beda:\n• WILL = Keputusan spontan saat ini juga, atau janji/tawaran bantuan ('Biar saya bantu', 'Nanti saya kabari').\n• AM/IS/ARE GOING TO = Rencana yang SUDAH diniatkan atau diputuskan sebelumnya ('Saya berencana ke dokter pagi ini').",
+    "formula": "Spontan/Janji: Subjek + will + Verb | Rencana Niat: am/is/are + going to + Verb",
+    "examples": [
+      {
+        "en": "I will update you this evening.",
+        "id": "Saya akan mengabari Anda malam ini. (Janji)"
+      },
+      {
+        "en": "I am going to see a doctor today.",
+        "id": "Saya berencana periksa ke dokter hari ini. (Sudah diniatkan)"
+      },
+      {
+        "en": "Wait here, I'll pay at the cashier.",
+        "id": "Tunggu sini, biar saya yang bayar di kasir. (Spontan)"
+      }
+    ],
+    "quiz": [
+      {
+        "prompt_id": "Saya akan menyelesaikan laporan saya sebelum jam lima.",
+        "target_words": [
+          "I",
+          "will",
+          "finish",
+          "my",
+          "report",
+          "before",
+          "five."
+        ],
+        "distractors": [
+          "finishing",
+          "to"
+        ],
+        "hint": "Janji menyelesaikan tugas memakai 'will + kata kerja dasar (finish)'."
+      },
+      {
+        "prompt_id": "Kami berencana menabung lebih banyak bulan depan.",
+        "target_words": [
+          "We",
+          "are",
+          "going",
+          "to",
+          "save",
+          "more",
+          "next",
+          "month."
+        ],
+        "distractors": [
+          "will",
+          "saving"
+        ],
+        "hint": "Rencana yang sudah diniatkan menggunakan 'are going to + save'."
+      },
+      {
+        "prompt_id": "Jangan khawatir, saya akan membantu kamu.",
+        "target_words": [
+          "Don't",
+          "worry,",
+          "I",
+          "will",
+          "help",
+          "you."
+        ],
+        "distractors": [
+          "helping",
+          "am"
+        ],
+        "hint": "Tawaran spontan menggunakan 'I will help'."
+      }
+    ]
+  },
+  {
+    "title": "6. Meminta Tolong dengan Sopan (Could & Would)",
+    "level": "A2",
+    "explanation_id": "Di lingkungan kerja dewasa, langsung bilang 'Send me the file' bisa terdengar memerintah. Cukup ganti 'Can' menjadi 'Could' atau 'Would' di awal kalimat untuk membuat nada bicara jauh lebih sopan, hangat, dan profesional tanpa kalimat bertele-tele.",
+    "formula": "Could you + Verb ...? | Would you + Verb ...? (Bisa ditambah 'please')",
+    "examples": [
+      {
+        "en": "Could you repeat that slowly, please?",
+        "id": "Bisakah Anda mengulanginya pelan-pelan?"
+      },
+      {
+        "en": "Could we reschedule our meeting to Friday?",
+        "id": "Bisakah kita menjadwalkan ulang rapat kita ke Jumat?"
+      },
+      {
+        "en": "Would you explain this part again?",
+        "id": "Sudikah Anda menjelaskan bagian ini lagi?"
+      }
+    ],
+    "quiz": [
+      {
+        "prompt_id": "Bisakah Anda mengonfirmasi lewat email?",
+        "target_words": [
+          "Could",
+          "you",
+          "confirm",
+          "by",
+          "email?"
+        ],
+        "distractors": [
+          "confirmed",
+          "to"
+        ],
+        "hint": "Gunakan 'Could you + kata kerja dasar (confirm)'."
+      },
+      {
+        "prompt_id": "Bolehkah saya meminjam casanmu sebentar?",
+        "target_words": [
+          "Could",
+          "I",
+          "borrow",
+          "your",
+          "charger?"
+        ],
+        "distractors": [
+          "lend",
+          "borrowing"
+        ],
+        "hint": "Meminta izin meminjam untuk diri sendiri memakai 'Could I borrow...'."
+      },
+      {
+        "prompt_id": "Bisakah kamu menangani permintaan klien ini?",
+        "target_words": [
+          "Could",
+          "you",
+          "handle",
+          "this",
+          "client",
+          "request?"
+        ],
+        "distractors": [
+          "handling",
+          "handled"
+        ],
+        "hint": "Setelah 'Could you', gunakan kata kerja dasar 'handle'."
+      }
+    ]
+  },
+  {
+    "title": "7. 'Sudah' atau 'Pernah' (Have / Has + Verb-3)",
+    "level": "B1",
+    "explanation_id": "Sering bingung kapan pakai 'I sent' vs 'I have sent'? Mudah:\n• Pakai Verb-2 ('I sent it yesterday') kalau FOKUS ke kapan waktunya (kemarin, jam 2 tadi).\n• Pakai HAVE/HAS + Verb-3 ('I have sent the email') kalau mau bilang 'SUDAH beres kok!' (fokus ke hasil sekarang, tanpa sebut jam lampau) atau 'PERNAH / BELUM'.",
+    "formula": "I/You/We/They + have + Verb-3 | He/She/It + has + Verb-3 (Belum: haven't / hasn't)",
+    "examples": [
+      {
+        "en": "I have already asked my colleague.",
+        "id": "Saya sudah meminta bantuan rekan kerja saya."
+      },
+      {
+        "en": "We haven't decided where to eat yet.",
+        "id": "Kami belum memutuskan mau makan di mana."
+      },
+      {
+        "en": "She has worked here for five years.",
+        "id": "Dia sudah bekerja di sini selama lima tahun (sampai sekarang)."
+      }
+    ],
+    "quiz": [
+      {
+        "prompt_id": "Kami sudah memperbaiki kendala login itu.",
+        "target_words": [
+          "We",
+          "have",
+          "fixed",
+          "the",
+          "login",
+          "issue."
+        ],
+        "distractors": [
+          "has",
+          "fix"
+        ],
+        "hint": "Menyatakan 'sudah selesai' untuk 'We' memakai 'have + fixed'."
+      },
+      {
+        "prompt_id": "Saya belum menyelesaikan laporan itu.",
+        "target_words": [
+          "I",
+          "haven't",
+          "finished",
+          "the",
+          "report",
+          "yet."
+        ],
+        "distractors": [
+          "didn't",
+          "finish"
+        ],
+        "hint": "Untuk arti 'belum', pasangkan 'haven't + Verb-3 (finished) ... yet'."
+      },
+      {
+        "prompt_id": "Apakah kamu pernah bekerja jarak jauh?",
+        "target_words": [
+          "Have",
+          "you",
+          "ever",
+          "worked",
+          "remotely?"
+        ],
+        "distractors": [
+          "Did",
+          "work"
+        ],
+        "hint": "Menanyakan pengalaman 'pernahkah' memakai 'Have you ever + Verb-3'."
+      }
+    ]
+  },
+  {
+    "title": "8. Kalimat Pengandaian Praktis (If ... Will vs Would)",
+    "level": "B1",
+    "explanation_id": "Ada dua jenis 'Jika' yang paling sering dipakai orang dewasa:\n1. Kemungkinan NYATA (First Conditional): 'Kalau nanti hujan, kita tunda acaranya' -> If + Present, ... WILL + Verb.\n2. Berandai-andai / Saran Sopan (Second Conditional): 'Kalau saya jadi kamu, saya akan ambil peluang itu' -> If + Past (were/had), ... WOULD + Verb.",
+    "formula": "Nyata: If + Present, Subjek + will + Verb | Andai/Saran: If + Past, Subjek + would + Verb",
+    "examples": [
+      {
+        "en": "If you stay consistent, you will see progress.",
+        "id": "Jika kamu tetap konsisten, kamu akan melihat kemajuan. (Nyata)"
+      },
+      {
+        "en": "Please call me if there is anything urgent.",
+        "id": "Tolong telepon saya jika ada hal mendesak. (Nyata)"
+      },
+      {
+        "en": "If I were you, I would negotiate the deadline.",
+        "id": "Kalau saya jadi kamu, saya akan menegosiasikan tenggatnya. (Saran)"
+      }
+    ],
+    "quiz": [
+      {
+        "prompt_id": "Jika kamu berlatih tiap hari, kamu akan merasa percaya diri.",
+        "target_words": [
+          "If",
+          "you",
+          "practice",
+          "daily,",
+          "you",
+          "will",
+          "feel",
+          "confident."
+        ],
+        "distractors": [
+          "would",
+          "practiced"
+        ],
+        "hint": "Ingat: di bagian 'If' gunakan Present ('practice'), baru di kalimat kedua pakai 'will'."
+      },
+      {
+        "prompt_id": "Kalau saya jadi kamu, saya akan mengambil kesempatan itu.",
+        "target_words": [
+          "If",
+          "I",
+          "were",
+          "you,",
+          "I",
+          "would",
+          "take",
+          "that",
+          "opportunity."
+        ],
+        "distractors": [
+          "am",
+          "will"
+        ],
+        "hint": "Ungkapan saran klasik selalu menggunakan 'If I were you, I would...'."
+      },
+      {
+        "prompt_id": "Beri tahu saya jika Anda membutuhkan bantuan.",
+        "target_words": [
+          "Let",
+          "me",
+          "know",
+          "if",
+          "you",
+          "need",
+          "help."
+        ],
+        "distractors": [
+          "will",
+          "needed"
+        ],
+        "hint": "Kemungkinan nyata di kantor: gunakan bentuk sekarang 'if you need help'."
+      }
+    ]
+  }
+]
